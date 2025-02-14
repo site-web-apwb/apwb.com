@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: url() no-repeat center center fixed;
+    background-image: url(images/fondpage2.jpg);
     background-size: cover;
     color: #333;
     text-align: center;
@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-    background-image: url(images/fond\ nav.jpg);
+    background-color: black;
 }
 
 .clignote{
@@ -40,7 +40,7 @@ nav {
 }
 
 nav button {
-    background-color: #00943e;
+    background-color: #009b40;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -60,7 +60,6 @@ main {
     padding: 20px;
 }
 
-
 button {
     background-color: #0056b3;
     color: white;
@@ -78,10 +77,36 @@ button:hover {
 footer {
     background: url() no-repeat center center;
     background-size: cover;
-    padding: 15px 0;
-    color: white;
-    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #797979;
 }
+
+table {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 0;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.titrepage2 {
+    color: white;
+}
+
+
+.para {
+    color: white;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
