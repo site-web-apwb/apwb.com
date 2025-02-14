@@ -8,8 +8,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(images/fondpage2.jpg);
+    background-image: url();
     background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+.bodypage2 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
     color: #333;
     text-align: center;
 }
@@ -94,9 +102,7 @@ th, td {
     padding: 10px;
     text-align: left;
 }
-th {
-    background-color: #f2f2f2;
-}
+
 
 .titrepage2 {
     color: white;
