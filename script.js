@@ -1,11 +1,27 @@
-// Charger le contenu sauvegardé
-document.getElementById("editor").value = localStorage.getItem("content") || "";
-document.getElementById("display").innerText = localStorage.getItem("content") || "Aucun contenu publié.";
-
-// Fonction pour sauvegarder le contenu
-function saveContent() {
-    const content = document.getElementById("editor").value;
-    localStorage.setItem("content", content);
-    document.getElementById("display").innerText = content;
+// bouton acceuil //
+function acceuil() {
+    window.location.href = "index.html";
 }
 
+
+// bouton quisommenous //
+function quisommenous() {
+    window.location.href = "quisommenous.html"; // Retourne à la page principale
+}
+
+
+// bouton tarif //
+function tarif() {
+    window.location.href = "tarification.html";
+}
+
+
+// bouton reservation //
+function reservation() {
+    window.location.href = "reservation.html";
+}
+
+//bouton reglement //
+function reglement() {
+    window.location.href = "reglement.html";
+}

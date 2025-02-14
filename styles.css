@@ -19,11 +19,24 @@ header {
     background: url(images/fond.jpg) no-repeat center center;
     background-size: cover;
     padding: 50px 0;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav {
     background-image: url(images/fond\ nav.jpg);
+}
+
+.clignote{
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+        animation: clignoter 0.3s infinite alternate;
+      }
+    
+      @keyframes clignoter {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+
 }
 
 nav button {
@@ -47,12 +60,6 @@ main {
     padding: 20px;
 }
 
-
-textarea {
-    width: 150%;
-    padding: 10px;
-    font-size: 1rem;
-}
 
 button {
     background-color: #0056b3;
